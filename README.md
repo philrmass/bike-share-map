@@ -10,7 +10,7 @@
 
 _This application shows the locations and current status of all of the Nike BIKETOWN bike share stations. It gets the locations and live bike status date from Nike's public API_
 
-_You can view the deployed page [here](https://philrmass.github.io/bike-share-map)
+_You can view the deployed page [here](https://philrmass.github.io/bike-share-map){:target="_blank"}
 
 ## Setup and Installation
 
