@@ -8,16 +8,18 @@
 
 ## Description
 
-_You can view the deployed page [here](https://paigewilliams.github.io/Bike-Share-Group-Project/)._
+_This application shows the locations and current status of all of the Nike BIKETOWN bike share stations. It gets the locations and live bike status date from Nike's public API_
+
+_You can view the deployed page [here](https://philrmass.github.io/bike-share-map)
 
 ## Setup and Installation
 
-* Clone the project from https://github.com/paigewilliams/Bike-Share-Group-Project.git to a local directory
+* Clone the project from https://github.com/philrmass/bike-share-map.git to a local directory
 * Open index.html in a browser
 
 ## Support and Contact Details
 
-If you have any issues or questions, please email me at paw145@humboldt.edu
+If you have any issues or questions, please email me at philrmass@gmail.com
 
 ## Specifications:
 ### MVP:
