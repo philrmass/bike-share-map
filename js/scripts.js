@@ -128,17 +128,8 @@ User.prototype.deleteStation = function(id) {
 };
 
 function requestObject(url) {
-  return new Promise(function(resolve, reject) {
-    let xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-      if(this.readyState === 4) {
-        if(this.status === 200) {
-          resolve(JSON.parse(xhttp.responseText));
-        }
-      }
-    };
-    xhttp.open("GET", url, true);
-    xhttp.send();
+  return fetch(url).then((response) => {
+    return response.json();
   });
 }
 
@@ -343,8 +334,8 @@ $(function() {
   map.setCenter(portlandDowntown);
   map.setZoom(15);
 
-  var stationUrl = "http://biketownpdx.socialbicycles.com/opendata/station_information.json";
-  var bikeUrl = "http://biketownpdx.socialbicycles.com/opendata/station_status.json";
+  var stationUrl = "https://biketownpdx.socialbicycles.com/opendata/station_information.json";
+  var bikeUrl = "https://biketownpdx.socialbicycles.com/opendata/station_status.json";
 
   mapDisplay.initialize("mapid", map.getCenter(), map.getZoom());
   requestObject(stationUrl).then(function(dataObject) {

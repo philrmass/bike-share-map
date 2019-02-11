@@ -12,6 +12,8 @@ _This application shows the locations and current status of all of the Nike BIKE
 
 _You can view the deployed page [here](https://philrmass.github.io/bike-share-map)_
 
+![Screenshot](img/screenshot.png)
+
 ## Setup and Installation
 
 * Clone the project from https://github.com/philrmass/bike-share-map.git to a local directory
